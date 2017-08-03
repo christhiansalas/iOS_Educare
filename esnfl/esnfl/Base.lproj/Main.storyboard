@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHf-Qn-Hk4">
+                                <rect key="frame" x="51.666666666666657" y="66" width="103.66666666666669" height="107.66666666666666"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bHf-Qn-Hk4" secondAttribute="height" multiplier="26:27" id="nAt-L8-qee"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="nfl.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Him-XK-csL">
+                                <rect key="frame" x="0.0" y="181.66666666666663" width="414" height="127.33333333333337"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Him-XK-csL" secondAttribute="height" multiplier="75:23" id="r2h-GF-5v5"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="broncos.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Him-XK-csL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0gn-s7-hQ2"/>
+                            <constraint firstItem="Him-XK-csL" firstAttribute="top" secondItem="bHf-Qn-Hk4" secondAttribute="bottom" constant="8" id="7Vx-wa-TDx"/>
+                            <constraint firstItem="bHf-Qn-Hk4" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" id="Bnl-6c-A5U"/>
+                            <constraint firstItem="Him-XK-csL" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="FNc-L7-bvZ"/>
+                            <constraint firstItem="bHf-Qn-Hk4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="46" id="IYb-EB-mLj"/>
+                            <constraint firstItem="bHf-Qn-Hk4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1:2" id="Yps-wD-rN9"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="nfl.official" id="pg4-mP-8IQ"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134.375" y="138.28125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="broncos.png" width="600" height="200"/>
+        <image name="nfl.png" width="800" height="800"/>
+    </resources>
+</document>

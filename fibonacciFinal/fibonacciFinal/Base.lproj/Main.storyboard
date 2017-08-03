@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIBONACCI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8a-ue-fmS">
+                                <rect key="frame" x="116" y="20" width="143" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="T5i-YT-1Ki"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Numeros Fibo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fPZ-U4-Arc">
+                                <rect key="frame" x="16" y="113" width="187.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="rh5-zQ-Mw4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IgY-vO-Z7M">
+                                <rect key="frame" x="185" y="108" width="174" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="calcularSerie:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Sdg-2c-AnI"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qhn-Ra-PUq">
+                                <rect key="frame" x="8" y="228" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="oy6-X4-y2Z"/>
+                                    <constraint firstAttribute="height" constant="30" id="wLq-dI-hmB"/>
+                                </constraints>
+                                <state key="normal" title="Resultado"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cKq-Rk-FfQ">
+                                <rect key="frame" x="56" y="307" width="263" height="340"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.37837314605712891" green="0.90811699628829956" blue="0.8609117865562439" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="f8a-ue-fmS" secondAttribute="trailing" constant="100" id="5BJ-Cl-buK"/>
+                            <constraint firstItem="Qhn-Ra-PUq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7ak-QN-miG"/>
+                            <constraint firstItem="Qhn-Ra-PUq" firstAttribute="top" secondItem="IgY-vO-Z7M" secondAttribute="bottom" constant="90" id="9Ls-mh-y5r"/>
+                            <constraint firstItem="Qhn-Ra-PUq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="BMN-jC-yrd"/>
+                            <constraint firstItem="cKq-Rk-FfQ" firstAttribute="top" secondItem="Qhn-Ra-PUq" secondAttribute="bottom" constant="49" id="CnS-R3-CZD"/>
+                            <constraint firstItem="fPZ-U4-Arc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:2" id="OSp-TT-Ml5"/>
+                            <constraint firstItem="fPZ-U4-Arc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="PgQ-jp-uVp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cKq-Rk-FfQ" secondAttribute="trailing" constant="40" id="UQZ-9c-54Z"/>
+                            <constraint firstItem="f8a-ue-fmS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="Yry-0a-q5V"/>
+                            <constraint firstItem="Qhn-Ra-PUq" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="fR5-pa-HTi"/>
+                            <constraint firstAttribute="trailing" secondItem="Qhn-Ra-PUq" secondAttribute="trailing" constant="8" id="fme-sk-8P0"/>
+                            <constraint firstItem="f8a-ue-fmS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="jgk-pE-c7D"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cKq-Rk-FfQ" secondAttribute="bottom" constant="20" id="mDh-Ty-Ait"/>
+                            <constraint firstItem="cKq-Rk-FfQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="un1-j0-1Mh"/>
+                            <constraint firstItem="fPZ-U4-Arc" firstAttribute="top" secondItem="f8a-ue-fmS" secondAttribute="bottom" constant="63" id="vCo-85-3ob"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txfN" destination="IgY-vO-Z7M" id="aTd-0r-y1w"/>
+                        <outlet property="txvRes" destination="cKq-Rk-FfQ" id="Xuy-FS-IuE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

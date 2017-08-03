@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FCBD5CF1F13E0EF009DC984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCBD5CE1F13E0EF009DC984 /* main.m */; };
+		1FCBD5D21F13E0EF009DC984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCBD5D11F13E0EF009DC984 /* AppDelegate.m */; };
+		1FCBD5D51F13E0EF009DC984 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCBD5D41F13E0EF009DC984 /* ViewController.m */; };
+		1FCBD5D81F13E0EF009DC984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBD5D61F13E0EF009DC984 /* Main.storyboard */; };
+		1FCBD5DA1F13E0EF009DC984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBD5D91F13E0EF009DC984 /* Assets.xcassets */; };
+		1FCBD5DD1F13E0EF009DC984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBD5DB1F13E0EF009DC984 /* LaunchScreen.storyboard */; };
+		1FCBD5F11F13E198009DC984 /* broncos.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBD5E61F13E198009DC984 /* broncos.png */; };
+		1FCBD5F21F13E198009DC984 /* eams.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBD5E71F13E198009DC984 /* eams.png */; };
+		1FCBD5F31F13E198009DC984 /* miami.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBD5E81F13E198009DC984 /* miami.png */; };
+		1FCBD5F41F13E198009DC984 /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBD5E91F13E198009DC984 /* new.png */; };
+		1FCBD5F61F13E198009DC984 /* nfl.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBD5EB1F13E198009DC984 /* nfl.png */; };
+		1FCBD5F71F13E198009DC984 /* pants.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBD5EC1F13E198009DC984 /* pants.png */; };
+		1FCBD5F81F13E198009DC984 /* patriots.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBD5ED1F13E198009DC984 /* patriots.png */; };
+		1FCBD5F91F13E198009DC984 /* seatle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBD5EE1F13E198009DC984 /* seatle.png */; };
+		1FCBD5FA1F13E198009DC984 /* viking.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBD5EF1F13E198009DC984 /* viking.png */; };
+		1FCBD5FD1F13F5F1009DC984 /* afc.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBD5FB1F13F5F1009DC984 /* afc.png */; };
+		1FCBD5FE1F13F5F1009DC984 /* nfc.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBD5FC1F13F5F1009DC984 /* nfc.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FCBD5CA1F13E0EF009DC984 /* nflteam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nflteam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FCBD5CE1F13E0EF009DC984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FCBD5D01F13E0EF009DC984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FCBD5D11F13E0EF009DC984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FCBD5D31F13E0EF009DC984 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FCBD5D41F13E0EF009DC984 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FCBD5D71F13E0EF009DC984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FCBD5D91F13E0EF009DC984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FCBD5DC1F13E0EF009DC984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FCBD5DE1F13E0EF009DC984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FCBD5E61F13E198009DC984 /* broncos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = broncos.png; sourceTree = "<group>"; };
+		1FCBD5E71F13E198009DC984 /* eams.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eams.png; sourceTree = "<group>"; };
+		1FCBD5E81F13E198009DC984 /* miami.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miami.png; sourceTree = "<group>"; };
+		1FCBD5E91F13E198009DC984 /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
+		1FCBD5EB1F13E198009DC984 /* nfl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nfl.png; sourceTree = "<group>"; };
+		1FCBD5EC1F13E198009DC984 /* pants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pants.png; sourceTree = "<group>"; };
+		1FCBD5ED1F13E198009DC984 /* patriots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patriots.png; sourceTree = "<group>"; };
+		1FCBD5EE1F13E198009DC984 /* seatle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seatle.png; sourceTree = "<group>"; };
+		1FCBD5EF1F13E198009DC984 /* viking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viking.png; sourceTree = "<group>"; };
+		1FCBD5FB1F13F5F1009DC984 /* afc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = afc.png; sourceTree = "<group>"; };
+		1FCBD5FC1F13F5F1009DC984 /* nfc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nfc.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FCBD5C71F13E0EF009DC984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FCBD5C11F13E0EF009DC984 = {
+			isa = PBXGroup;
+			children = (
+				1FCBD5CC1F13E0EF009DC984 /* nflteam */,
+				1FCBD5CB1F13E0EF009DC984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FCBD5CB1F13E0EF009DC984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FCBD5CA1F13E0EF009DC984 /* nflteam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FCBD5CC1F13E0EF009DC984 /* nflteam */ = {
+			isa = PBXGroup;
+			children = (
+				1FCBD5E41F13E135009DC984 /* images */,
+				1FCBD5D01F13E0EF009DC984 /* AppDelegate.h */,
+				1FCBD5D11F13E0EF009DC984 /* AppDelegate.m */,
+				1FCBD5D31F13E0EF009DC984 /* ViewController.h */,
+				1FCBD5D41F13E0EF009DC984 /* ViewController.m */,
+				1FCBD5D61F13E0EF009DC984 /* Main.storyboard */,
+				1FCBD5D91F13E0EF009DC984 /* Assets.xcassets */,
+				1FCBD5DB1F13E0EF009DC984 /* LaunchScreen.storyboard */,
+				1FCBD5DE1F13E0EF009DC984 /* Info.plist */,
+				1FCBD5CD1F13E0EF009DC984 /* Supporting Files */,
+			);
+			path = nflteam;
+			sourceTree = "<group>";
+		};
+		1FCBD5CD1F13E0EF009DC984 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FCBD5CE1F13E0EF009DC984 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FCBD5E41F13E135009DC984 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1FCBD5FB1F13F5F1009DC984 /* afc.png */,
+				1FCBD5FC1F13F5F1009DC984 /* nfc.png */,
+				1FCBD5E61F13E198009DC984 /* broncos.png */,
+				1FCBD5E71F13E198009DC984 /* eams.png */,
+				1FCBD5E81F13E198009DC984 /* miami.png */,
+				1FCBD5E91F13E198009DC984 /* new.png */,
+				1FCBD5EB1F13E198009DC984 /* nfl.png */,
+				1FCBD5EC1F13E198009DC984 /* pants.png */,
+				1FCBD5ED1F13E198009DC984 /* patriots.png */,
+				1FCBD5EE1F13E198009DC984 /* seatle.png */,
+				1FCBD5EF1F13E198009DC984 /* viking.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FCBD5C91F13E0EF009DC984 /* nflteam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FCBD5E11F13E0EF009DC984 /* Build configuration list for PBXNativeTarget "nflteam" */;
+			buildPhases = (
+				1FCBD5C61F13E0EF009DC984 /* Sources */,
+				1FCBD5C71F13E0EF009DC984 /* Frameworks */,
+				1FCBD5C81F13E0EF009DC984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nflteam;
+			productName = nflteam;
+			productReference = 1FCBD5CA1F13E0EF009DC984 /* nflteam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FCBD5C21F13E0EF009DC984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xyz;
+				TargetAttributes = {
+					1FCBD5C91F13E0EF009DC984 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q4GR6UWD3P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1FCBD5C51F13E0EF009DC984 /* Build configuration list for PBXProject "nflteam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FCBD5C11F13E0EF009DC984;
+			productRefGroup = 1FCBD5CB1F13E0EF009DC984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FCBD5C91F13E0EF009DC984 /* nflteam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FCBD5C81F13E0EF009DC984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCBD5FA1F13E198009DC984 /* viking.png in Resources */,
+				1FCBD5F91F13E198009DC984 /* seatle.png in Resources */,
+				1FCBD5DD1F13E0EF009DC984 /* LaunchScreen.storyboard in Resources */,
+				1FCBD5F11F13E198009DC984 /* broncos.png in Resources */,
+				1FCBD5F61F13E198009DC984 /* nfl.png in Resources */,
+				1FCBD5F31F13E198009DC984 /* miami.png in Resources */,
+				1FCBD5F41F13E198009DC984 /* new.png in Resources */,
+				1FCBD5FD1F13F5F1009DC984 /* afc.png in Resources */,
+				1FCBD5DA1F13E0EF009DC984 /* Assets.xcassets in Resources */,
+				1FCBD5FE1F13F5F1009DC984 /* nfc.png in Resources */,
+				1FCBD5D81F13E0EF009DC984 /* Main.storyboard in Resources */,
+				1FCBD5F81F13E198009DC984 /* patriots.png in Resources */,
+				1FCBD5F71F13E198009DC984 /* pants.png in Resources */,
+				1FCBD5F21F13E198009DC984 /* eams.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FCBD5C61F13E0EF009DC984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCBD5D51F13E0EF009DC984 /* ViewController.m in Sources */,
+				1FCBD5D21F13E0EF009DC984 /* AppDelegate.m in Sources */,
+				1FCBD5CF1F13E0EF009DC984 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FCBD5D61F13E0EF009DC984 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FCBD5D71F13E0EF009DC984 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FCBD5DB1F13E0EF009DC984 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FCBD5DC1F13E0EF009DC984 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FCBD5DF1F13E0EF009DC984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FCBD5E01F13E0EF009DC984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FCBD5E21F13E0EF009DC984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q4GR6UWD3P;
+				INFOPLIST_FILE = nflteam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = christhiansalas.nflteam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FCBD5E31F13E0EF009DC984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q4GR6UWD3P;
+				INFOPLIST_FILE = nflteam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = christhiansalas.nflteam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FCBD5C51F13E0EF009DC984 /* Build configuration list for PBXProject "nflteam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCBD5DF1F13E0EF009DC984 /* Debug */,
+				1FCBD5E01F13E0EF009DC984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FCBD5E11F13E0EF009DC984 /* Build configuration list for PBXNativeTarget "nflteam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCBD5E21F13E0EF009DC984 /* Debug */,
+				1FCBD5E31F13E0EF009DC984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FCBD5C21F13E0EF009DC984 /* Project object */;
+}

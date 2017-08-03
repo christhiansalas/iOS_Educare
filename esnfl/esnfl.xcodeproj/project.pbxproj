@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FDA255D1F047883007187C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA255C1F047883007187C4 /* main.m */; };
+		1FDA25601F047883007187C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA255F1F047883007187C4 /* AppDelegate.m */; };
+		1FDA25631F047883007187C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA25621F047883007187C4 /* ViewController.m */; };
+		1FDA25661F047883007187C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA25641F047883007187C4 /* Main.storyboard */; };
+		1FDA25681F047883007187C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA25671F047883007187C4 /* Assets.xcassets */; };
+		1FDA256B1F047883007187C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA25691F047883007187C4 /* LaunchScreen.storyboard */; };
+		1FDA25771F0478AC007187C4 /* broncos.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA25731F0478AC007187C4 /* broncos.png */; };
+		1FDA25781F0478AC007187C4 /* eams.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA25741F0478AC007187C4 /* eams.png */; };
+		1FDA25791F0478AC007187C4 /* miami.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA25751F0478AC007187C4 /* miami.png */; };
+		1FDA257A1F0478AC007187C4 /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA25761F0478AC007187C4 /* new.png */; };
+		1FDA25801F0478C0007187C4 /* nfc.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA257B1F0478C0007187C4 /* nfc.png */; };
+		1FDA25811F0478C0007187C4 /* pants.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA257C1F0478C0007187C4 /* pants.png */; };
+		1FDA25821F0478C0007187C4 /* patriots.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA257D1F0478C0007187C4 /* patriots.png */; };
+		1FDA25831F0478C0007187C4 /* seatle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA257E1F0478C0007187C4 /* seatle.png */; };
+		1FDA25841F0478C0007187C4 /* viking.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA257F1F0478C0007187C4 /* viking.png */; };
+		1FDA25861F0478E2007187C4 /* afc.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA25851F0478E2007187C4 /* afc.png */; };
+		1FDA25881F0478EE007187C4 /* nfl.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA25871F0478EE007187C4 /* nfl.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FDA25581F047883007187C4 /* esnfl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esnfl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDA255C1F047883007187C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FDA255E1F047883007187C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FDA255F1F047883007187C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FDA25611F047883007187C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FDA25621F047883007187C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FDA25651F047883007187C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FDA25671F047883007187C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FDA256A1F047883007187C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FDA256C1F047883007187C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FDA25731F0478AC007187C4 /* broncos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = broncos.png; sourceTree = "<group>"; };
+		1FDA25741F0478AC007187C4 /* eams.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eams.png; sourceTree = "<group>"; };
+		1FDA25751F0478AC007187C4 /* miami.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miami.png; sourceTree = "<group>"; };
+		1FDA25761F0478AC007187C4 /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
+		1FDA257B1F0478C0007187C4 /* nfc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nfc.png; sourceTree = "<group>"; };
+		1FDA257C1F0478C0007187C4 /* pants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pants.png; sourceTree = "<group>"; };
+		1FDA257D1F0478C0007187C4 /* patriots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patriots.png; sourceTree = "<group>"; };
+		1FDA257E1F0478C0007187C4 /* seatle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seatle.png; sourceTree = "<group>"; };
+		1FDA257F1F0478C0007187C4 /* viking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viking.png; sourceTree = "<group>"; };
+		1FDA25851F0478E2007187C4 /* afc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = afc.png; sourceTree = "<group>"; };
+		1FDA25871F0478EE007187C4 /* nfl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nfl.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FDA25551F047883007187C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FDA254F1F047882007187C4 = {
+			isa = PBXGroup;
+			children = (
+				1FDA255A1F047883007187C4 /* esnfl */,
+				1FDA25591F047883007187C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FDA25591F047883007187C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FDA25581F047883007187C4 /* esnfl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FDA255A1F047883007187C4 /* esnfl */ = {
+			isa = PBXGroup;
+			children = (
+				1FDA25721F047894007187C4 /* img */,
+				1FDA255E1F047883007187C4 /* AppDelegate.h */,
+				1FDA255F1F047883007187C4 /* AppDelegate.m */,
+				1FDA25611F047883007187C4 /* ViewController.h */,
+				1FDA25621F047883007187C4 /* ViewController.m */,
+				1FDA25641F047883007187C4 /* Main.storyboard */,
+				1FDA25671F047883007187C4 /* Assets.xcassets */,
+				1FDA25691F047883007187C4 /* LaunchScreen.storyboard */,
+				1FDA256C1F047883007187C4 /* Info.plist */,
+				1FDA255B1F047883007187C4 /* Supporting Files */,
+			);
+			path = esnfl;
+			sourceTree = "<group>";
+		};
+		1FDA255B1F047883007187C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FDA255C1F047883007187C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FDA25721F047894007187C4 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				1FDA25871F0478EE007187C4 /* nfl.png */,
+				1FDA25851F0478E2007187C4 /* afc.png */,
+				1FDA257B1F0478C0007187C4 /* nfc.png */,
+				1FDA257C1F0478C0007187C4 /* pants.png */,
+				1FDA257D1F0478C0007187C4 /* patriots.png */,
+				1FDA257E1F0478C0007187C4 /* seatle.png */,
+				1FDA257F1F0478C0007187C4 /* viking.png */,
+				1FDA25731F0478AC007187C4 /* broncos.png */,
+				1FDA25741F0478AC007187C4 /* eams.png */,
+				1FDA25751F0478AC007187C4 /* miami.png */,
+				1FDA25761F0478AC007187C4 /* new.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FDA25571F047883007187C4 /* esnfl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FDA256F1F047883007187C4 /* Build configuration list for PBXNativeTarget "esnfl" */;
+			buildPhases = (
+				1FDA25541F047883007187C4 /* Sources */,
+				1FDA25551F047883007187C4 /* Frameworks */,
+				1FDA25561F047883007187C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = esnfl;
+			productName = esnfl;
+			productReference = 1FDA25581F047883007187C4 /* esnfl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FDA25501F047882007187C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xyz;
+				TargetAttributes = {
+					1FDA25571F047883007187C4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q4GR6UWD3P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1FDA25531F047882007187C4 /* Build configuration list for PBXProject "esnfl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FDA254F1F047882007187C4;
+			productRefGroup = 1FDA25591F047883007187C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FDA25571F047883007187C4 /* esnfl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FDA25561F047883007187C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDA25881F0478EE007187C4 /* nfl.png in Resources */,
+				1FDA25771F0478AC007187C4 /* broncos.png in Resources */,
+				1FDA25801F0478C0007187C4 /* nfc.png in Resources */,
+				1FDA257A1F0478AC007187C4 /* new.png in Resources */,
+				1FDA25781F0478AC007187C4 /* eams.png in Resources */,
+				1FDA256B1F047883007187C4 /* LaunchScreen.storyboard in Resources */,
+				1FDA25811F0478C0007187C4 /* pants.png in Resources */,
+				1FDA25681F047883007187C4 /* Assets.xcassets in Resources */,
+				1FDA25861F0478E2007187C4 /* afc.png in Resources */,
+				1FDA25821F0478C0007187C4 /* patriots.png in Resources */,
+				1FDA25661F047883007187C4 /* Main.storyboard in Resources */,
+				1FDA25841F0478C0007187C4 /* viking.png in Resources */,
+				1FDA25831F0478C0007187C4 /* seatle.png in Resources */,
+				1FDA25791F0478AC007187C4 /* miami.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FDA25541F047883007187C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDA25631F047883007187C4 /* ViewController.m in Sources */,
+				1FDA25601F047883007187C4 /* AppDelegate.m in Sources */,
+				1FDA255D1F047883007187C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FDA25641F047883007187C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FDA25651F047883007187C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FDA25691F047883007187C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FDA256A1F047883007187C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FDA256D1F047883007187C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FDA256E1F047883007187C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FDA25701F047883007187C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q4GR6UWD3P;
+				INFOPLIST_FILE = esnfl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = christhiansalas.esnfl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FDA25711F047883007187C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q4GR6UWD3P;
+				INFOPLIST_FILE = esnfl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = christhiansalas.esnfl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FDA25531F047882007187C4 /* Build configuration list for PBXProject "esnfl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDA256D1F047883007187C4 /* Debug */,
+				1FDA256E1F047883007187C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FDA256F1F047883007187C4 /* Build configuration list for PBXNativeTarget "esnfl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDA25701F047883007187C4 /* Debug */,
+				1FDA25711F047883007187C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FDA25501F047882007187C4 /* Project object */;
+}
